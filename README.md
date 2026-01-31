@@ -19,6 +19,12 @@ Modern bir diş kliniği web sitesi. **Sesli AI asistan** (Vapi AI) ve **manuel 
 ---
 [Siteyi Görmek İçin](https://salverform-maybell-unsullen.ngrok-free.dev/)
 ## 📸 Ekran Görüntüleri
+<img width="1920" height="952" alt="image" src="https://github.com/user-attachments/assets/1876020c-0cff-44f9-96f8-7f3de58ec554" />
+<img width="1919" height="956" alt="image" src="https://github.com/user-attachments/assets/a00d5302-4fb5-4698-b2c9-fb5b4d579ca0" />
+<img width="1815" height="952" alt="image" src="https://github.com/user-attachments/assets/25ea15cb-3eef-42b1-a9ac-80885120d082" />
+
+
+
 ## 🚀 Kurulum
 
 ### 1. Projeyi Klonlayın
