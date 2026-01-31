@@ -1,0 +1,27 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// Randevu (Appointment) model
+model Appointment {
+  id          String   @id @default(cuid())
+  name        String   // Hasta adı
+  phone       String   // Telefon numarası
+  email       String?  // Email (opsiyonel)
+  doctor      String   // Seçilen doktor
+  service     String   // Tedavi türü
+  date        DateTime // Randevu tarihi
+  time        String   // Randevu saati
+  notes       String?  // Ek notlar
+  status      String   @default("pending") // pending, confirmed, cancelled
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
